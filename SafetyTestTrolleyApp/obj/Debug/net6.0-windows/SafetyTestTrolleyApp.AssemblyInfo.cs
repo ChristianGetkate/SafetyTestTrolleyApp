@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafetyTestTrolleyApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1bb551e4f7691ca7a70dd31cd746d5992461724")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafetyTestTrolleyApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafetyTestTrolleyApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
