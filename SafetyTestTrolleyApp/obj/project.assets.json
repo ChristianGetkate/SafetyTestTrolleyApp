@@ -260,6 +260,19 @@
             "rid": "win"
           }
         }
+      },
+      "LedSingleLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LedSingleLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LedSingleLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -636,11 +649,17 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "LedSingleLibrary/1.0.0": {
+      "type": "project",
+      "path": "../LedSingleLibrary/LedSingleLibrary.csproj",
+      "msbuildProject": "../LedSingleLibrary/LedSingleLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Beckhoff.TwinCAT.Ads >= 6.1.244"
+      "Beckhoff.TwinCAT.Ads >= 6.1.244",
+      "LedSingleLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -669,7 +688,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Git\\SafetyTestTrolleyApp\\LedSingleLibrary\\LedSingleLibrary.csproj": {
+              "projectPath": "C:\\Git\\SafetyTestTrolleyApp\\LedSingleLibrary\\LedSingleLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

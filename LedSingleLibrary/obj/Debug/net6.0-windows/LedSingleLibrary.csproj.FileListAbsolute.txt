@@ -1,0 +1,14 @@
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.LedSingleControl.resources
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.csproj.GenerateResource.cache
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.AssemblyInfoInputs.cache
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.AssemblyInfo.cs
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.csproj.CoreCompileInputs.cache
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.sourcelink.json
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\bin\Debug\net6.0-windows\LedSingleLibrary.deps.json
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\bin\Debug\net6.0-windows\LedSingleLibrary.dll
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\bin\Debug\net6.0-windows\LedSingleLibrary.pdb
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.dll
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\refint\LedSingleLibrary.dll
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\LedSingleLibrary.pdb
+C:\Git\SafetyTestTrolleyApp\LedSingleLibrary\obj\Debug\net6.0-windows\ref\LedSingleLibrary.dll

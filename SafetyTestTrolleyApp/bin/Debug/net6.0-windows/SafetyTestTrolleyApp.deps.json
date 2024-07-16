@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "SafetyTestTrolleyApp/1.0.0": {
         "dependencies": {
-          "Beckhoff.TwinCAT.Ads": "6.1.244"
+          "Beckhoff.TwinCAT.Ads": "6.1.244",
+          "LedSingleLibrary": "1.0.0"
         },
         "runtime": {
           "SafetyTestTrolleyApp.dll": {}
@@ -100,6 +101,11 @@
       "System.Windows.Extensions/6.0.0": {
         "dependencies": {
           "System.Drawing.Common": "6.0.0"
+        }
+      },
+      "LedSingleLibrary/1.0.0": {
+        "runtime": {
+          "LedSingleLibrary.dll": {}
         }
       }
     }
@@ -200,6 +206,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "LedSingleLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

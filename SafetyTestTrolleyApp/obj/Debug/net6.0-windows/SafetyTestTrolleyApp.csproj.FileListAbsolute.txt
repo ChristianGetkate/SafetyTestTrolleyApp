@@ -23,3 +23,5 @@ C:\Git\SafetyTestTrolleyApp\SafetyTestTrolleyApp\obj\Debug\net6.0-windows\refint
 C:\Git\SafetyTestTrolleyApp\SafetyTestTrolleyApp\obj\Debug\net6.0-windows\SafetyTestTrolleyApp.pdb
 C:\Git\SafetyTestTrolleyApp\SafetyTestTrolleyApp\obj\Debug\net6.0-windows\SafetyTestTrolleyApp.genruntimeconfig.cache
 C:\Git\SafetyTestTrolleyApp\SafetyTestTrolleyApp\obj\Debug\net6.0-windows\ref\SafetyTestTrolleyApp.dll
+C:\Git\SafetyTestTrolleyApp\SafetyTestTrolleyApp\bin\Debug\net6.0-windows\LedSingleLibrary.dll
+C:\Git\SafetyTestTrolleyApp\SafetyTestTrolleyApp\bin\Debug\net6.0-windows\LedSingleLibrary.pdb

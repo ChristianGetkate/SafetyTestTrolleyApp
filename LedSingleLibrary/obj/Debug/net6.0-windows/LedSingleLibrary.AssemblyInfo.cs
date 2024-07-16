@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SafetyTestTrolleyApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LedSingleLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a77168fc1ed8b9c51e6c43fdf2f43ce5cac25962")]
-[assembly: System.Reflection.AssemblyProductAttribute("SafetyTestTrolleyApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SafetyTestTrolleyApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("LedSingleLibrary")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LedSingleLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

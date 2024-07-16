@@ -1,30 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TwinCAT.Ads;
+using System.Windows.Forms;
 
 namespace SafetyTestTrolleyApp
 {
     internal class TwinCATConnector
     {
-        public AdsClient adsClient = new AdsClient();
+        private AdsClient adsClient = new AdsClient();
 
         public void Connect(string AmsNetId, int port)
         {
             adsClient.Connect(AmsNetId, port);
         }
 
-        // Example to read a boolean variable
-        public bool ReadBool(string variableName)
+        public uint CreateVariableHandle(string variableName)
         {
             try
             {
-                var handle = adsClient.CreateVariableHandle(variableName);
-                var value = (bool)adsClient.ReadAny(handle, typeof(bool));
-                adsClient.DeleteVariableHandle(handle);
-                return value;
+                return adsClient.CreateVariableHandle(variableName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error creating variable handle: {ex.Message}");
+                throw;
+            }
+        }
+
+        public bool ReadBool(uint handle)
+        {
+            try
+            {
+                return (bool)adsClient.ReadAny(handle, typeof(bool));
             }
             catch (Exception ex)
             {
@@ -33,14 +39,11 @@ namespace SafetyTestTrolleyApp
             }
         }
 
-        // Example to write a boolean variable
-        public void WriteBool(string variableName, bool value)
+        public void WriteBool(uint handle, bool value)
         {
             try
             {
-                var handle = adsClient.CreateVariableHandle(variableName);
                 adsClient.WriteAny(handle, value);
-                adsClient.DeleteVariableHandle(handle);
             }
             catch (Exception ex)
             {
